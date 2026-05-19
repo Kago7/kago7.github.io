@@ -2,11 +2,128 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Karl Gonsalves</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karl Gonsalves | Portfolio</title>
+
+    <!-- Jekyll Minimal Theme -->
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+    <!-- Optional custom stylesheet -->
+    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+
     <link rel="icon" type="image/png" href="favicon.png">
 </head>
+
 <body>
-    <h1>Hello, world!</h1>
-    <p>This is my website.</p>
+
+    <header class="site-header">
+        <div class="container">
+            <h1>Karl Gonsalves</h1>
+            <p>Engineering Student • Embedded Systems • Firmware Development</p>
+
+            <nav>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+
+            <p>
+                Hello! I'm Karl, an engineering student interested in embedded systems,
+                DSP firmware, hardware design, and software development.
+            </p>
+
+            <p>
+                I enjoy building projects involving microcontrollers, electronics,
+                and low-level programming.
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <div class="project">
+                <h3>Embedded Motor Controller</h3>
+                <p>
+                    Designed and programmed a microcontroller-based motor control system
+                    using PWM and feedback control.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>Custom Soldering Station</h3>
+                <p>
+                    Built a dual-channel soldering station for JBC T245 irons with
+                    temperature regulation and power management.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>Signal Processing Tools</h3>
+                <p>
+                    Developed DSP-related tools and firmware experiments for signal analysis.
+                </p>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills</h2>
+
+            <ul>
+                <li>C / C++</li>
+                <li>Python</li>
+                <li>Embedded Systems</li>
+                <li>STM32 Development</li>
+                <li>PCB Design</li>
+                <li>Firmware Development</li>
+                <li>Git & GitHub</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact</h2>
+
+            <p>Email: your.email@example.com</p>
+
+            <p>
+                GitHub:
+                <a href="https://github.com/yourusername" target="_blank">
+                    github.com/yourusername
+                </a>
+            </p>
+
+            <p>
+                LinkedIn:
+                <a href="https://linkedin.com/in/yourusername" target="_blank">
+                    linkedin.com/in/yourusername
+                </a>
+            </p>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© 2025 Karl Gonsalves</p>
+        </div>
+    </footer>
+
 </body>
 </html>
